@@ -1,0 +1,311 @@
+
+.kreon-basic {
+    font-family: "Kreon", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .jua-regular {
+    font-family: "Jua", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h1 {
+    font-family: "Jua";
+    font-weight: 400;
+    font-size: 24px;
+}
+
+h2 {
+    font-family: "Kreon";
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h3 {
+    font-family: "Kreon";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+
+/* page 1 */
+
+#home { 
+    background-image: url("../images/starschermimg.png");
+    width: 375px;
+    height: 1212px;
+    object-fit: cover;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+#header1img {
+    padding-top: 10%;
+}
+
+#home h1 {
+    width: 65%;
+    text-align: center;
+    position: absolute;
+    top: 21.5%;
+    font-size: 24px;
+    padding-left: 17%;
+}
+
+#home h2 {
+    font-size: 16px;
+    padding-left: 4%;
+}
+
+/* branches */
+
+#home article:nth-of-type(1) {
+    text-align: left;
+    margin-top: 32%;
+    padding-right: 26%;
+}
+
+#leftbranch img{
+    position: absolute;
+    z-index: -1;
+    bottom: 30%;
+    overflow: hidden;
+}
+
+#home article:nth-of-type(2) {
+    text-align: right;
+    padding-top: 50%;
+    padding-left: 15%;
+    padding-right: 4%;
+}
+
+#rightbranch img{
+    position: absolute;
+    z-index: -1;
+    right: 0%;
+    margin-top: -31.5%;
+}
+
+
+/* verder button */
+
+#home footer {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    margin-top: 100%;
+    justify-content: center;
+  }
+
+#home footer section {
+    display: flex;
+    width: 50%;
+    height: 20%;
+    background-color: rgb(250, 255, 155);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+} 
+
+#home footer a {
+    text-decoration: none;
+    color:black;
+    font-family: "Jua";
+    font-weight: 300;
+    font-size: 24px;
+}
+
+
+/* page 2 */
+
+#uitleg h1 {
+    margin-top: -23%;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+
+#uitleg {
+    background-image: url("../images/Uitlegschermimg.png");
+    width: 375px;
+    height: 2202px;
+    object-fit: cover;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+#uitleg section {
+        font-family: "Kreon", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+    }
+
+
+/* kruinlaag */
+#uitleg main section p:nth-of-type(1) {
+    margin-top: 85%;
+    padding-right: 20%;
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+#uitleg main section p:nth-of-type(2) {
+    margin-top: -5%;
+    padding-right: 20%;
+    padding-left: 5%;
+    font-size: 20px;
+}
+/* trunk */
+#uitleg main section p:nth-of-type(3) {
+    margin-top: 65%;
+    padding-right: 66%;
+    padding-left: 2%;
+    font-size: 15px;
+    color: black;
+}
+/* hoge struiken */
+#uitleg main section p:nth-of-type(4) {
+    margin-top: 42%;
+    padding-left: 5%;
+    padding-right: 20%;
+    font-size: 20px;
+}
+/* lage struiken */
+#uitleg main section p:nth-of-type(5) {
+    margin-top: 58%;
+    padding-left: 10%;
+    padding-right: 5%;
+    text-align: right;
+    font-size: 20px;
+}
+/* kruidlaag */
+#uitleg main section p:nth-of-type(6) {
+    margin-top: 60%;
+    padding-left: 5%;
+    padding-right: 10%;
+    font-size: 20px;
+}
+/* rootlaag */
+#uitleg main section p:nth-of-type(7) {
+    margin-top: 50%;
+    padding-left: 5%;
+    padding-right: 10%;
+    font-size: 20px;
+}
+
+#uitleg footer section {
+    display: flex;
+    width: 50%;
+    height: 20%;
+    background-color: rgb(250, 255, 155);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+/* verder */
+#uitleg footer section:nth-of-type(1) {
+    display: flex;
+    width: 50%;
+    height: 20%;
+    background-color: rgb(217, 217, 217);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* terug */
+#uitleg footer section:nth-of-type(2) {
+    display: flex;
+    width: 50%;
+    height: 20%;
+    background-color: rgb(117, 217, 217);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+} 
+
+#uitleg footer a {
+    text-decoration: none;
+    color:black;
+    font-family: "Jua";
+    font-weight: 300;
+    font-size: 24px;
+}
+
+#waarom {
+    background-image: url("../images/whyschermimg.png");
+    width: 375px;
+    height: 667px;
+    object-fit: cover;
+    margin: 0;
+}
+
+#waarom h1 {
+    margin-top: -23%;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+
+#waarom section p {
+    font-family: "kreon";
+    font-size: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#waarom section p:nth-of-type(1) {
+    padding-top: 30%;
+}
+
+#waarom section p:nth-of-type(2) {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#waarom section p:nth-of-type(3){
+    font-size: 14px;
+}
+
+#waarom section p:nth-of-type(4){
+    font-size: 14px;
+    padding-top: -10%;
+}
+
+/* button */
+
+#waarom footer section {
+    display: flex;
+    width: 50%;
+    height: 20%;
+    background-color: rgb(250, 255, 155);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+} 
+
+#waarom footer a {
+    text-decoration: none;
+    color:black;
+    font-family: "Jua";
+    font-weight: 300;
+    font-size: 24px;
+}
+
+
+
+  
+
+
+
+
+
